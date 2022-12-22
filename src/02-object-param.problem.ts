@@ -1,5 +1,10 @@
 import { expect, it } from "vitest";
 
+/**
+ * Type alias and interface are interchangable at first though
+ * interface only works with objects.
+ */
+
 // interface method:
 interface NewType {
   first: number;
